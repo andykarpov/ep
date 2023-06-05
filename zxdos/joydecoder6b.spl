@@ -1,0 +1,27 @@
+[Inputs]
+clk
+joy_data
+joy_latch_megadrive
+[Outputs]
+joy_clk
+joy_load_n
+joy1up
+joy1down
+joy1left
+joy1right
+joy1fire1
+joy1fire2
+joy1fire3
+joy1start
+joy2up
+joy2down
+joy2left
+joy2right
+joy2fire1
+joy2fire2
+joy2fire3
+joy2start
+[BiDir]
+[ATTRIBUTES]
+VeriModel joydecoder6b
+

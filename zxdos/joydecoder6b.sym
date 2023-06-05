@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="joydecoder6b">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2022-1-5T20:6:30</timestamp>
+    <attr value="joydecoder6b" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-1120" name="clk" />
+    <pin polarity="Input" x="0" y="-576" name="joy_data" />
+    <pin polarity="Input" x="0" y="-32" name="joy_latch_megadrive" />
+    <pin polarity="Output" x="464" y="-1120" name="joy_clk" />
+    <pin polarity="Output" x="464" y="-1056" name="joy_load_n" />
+    <pin polarity="Output" x="464" y="-992" name="joy1up" />
+    <pin polarity="Output" x="464" y="-928" name="joy1down" />
+    <pin polarity="Output" x="464" y="-864" name="joy1left" />
+    <pin polarity="Output" x="464" y="-800" name="joy1right" />
+    <pin polarity="Output" x="464" y="-736" name="joy1fire1" />
+    <pin polarity="Output" x="464" y="-672" name="joy1fire2" />
+    <pin polarity="Output" x="464" y="-608" name="joy1fire3" />
+    <pin polarity="Output" x="464" y="-544" name="joy1start" />
+    <pin polarity="Output" x="464" y="-480" name="joy2up" />
+    <pin polarity="Output" x="464" y="-416" name="joy2down" />
+    <pin polarity="Output" x="464" y="-352" name="joy2left" />
+    <pin polarity="Output" x="464" y="-288" name="joy2right" />
+    <pin polarity="Output" x="464" y="-224" name="joy2fire1" />
+    <pin polarity="Output" x="464" y="-160" name="joy2fire2" />
+    <pin polarity="Output" x="464" y="-96" name="joy2fire3" />
+    <pin polarity="Output" x="464" y="-32" name="joy2start" />
+    <graph>
+        <rect width="336" x="64" y="-1152" height="1152" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="232" y="-1160" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1120" type="pin clk" />
+        <line x2="0" y1="-1120" y2="-1120" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-576" type="pin joy_data" />
+        <line x2="0" y1="-576" y2="-576" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin joy_latch_megadrive" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-1120" type="pin joy_clk" />
+        <line x2="464" y1="-1120" y2="-1120" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-1056" type="pin joy_load_n" />
+        <line x2="464" y1="-1056" y2="-1056" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-992" type="pin joy1up" />
+        <line x2="464" y1="-992" y2="-992" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-928" type="pin joy1down" />
+        <line x2="464" y1="-928" y2="-928" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-864" type="pin joy1left" />
+        <line x2="464" y1="-864" y2="-864" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-800" type="pin joy1right" />
+        <line x2="464" y1="-800" y2="-800" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-736" type="pin joy1fire1" />
+        <line x2="464" y1="-736" y2="-736" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-672" type="pin joy1fire2" />
+        <line x2="464" y1="-672" y2="-672" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-608" type="pin joy1fire3" />
+        <line x2="464" y1="-608" y2="-608" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-544" type="pin joy1start" />
+        <line x2="464" y1="-544" y2="-544" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-480" type="pin joy2up" />
+        <line x2="464" y1="-480" y2="-480" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-416" type="pin joy2down" />
+        <line x2="464" y1="-416" y2="-416" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-352" type="pin joy2left" />
+        <line x2="464" y1="-352" y2="-352" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-288" type="pin joy2right" />
+        <line x2="464" y1="-288" y2="-288" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-224" type="pin joy2fire1" />
+        <line x2="464" y1="-224" y2="-224" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-160" type="pin joy2fire2" />
+        <line x2="464" y1="-160" y2="-160" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-96" type="pin joy2fire3" />
+        <line x2="464" y1="-96" y2="-96" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-32" type="pin joy2start" />
+        <line x2="464" y1="-32" y2="-32" x1="400" />
+    </graph>
+</symbol>
