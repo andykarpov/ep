@@ -101,7 +101,7 @@ wire doublescan = (dsp_height>350);
 
 reg auto_ce_pix;
 always @(posedge clk_sys) begin : block_ce
-	reg [15:0] cnt = 0;
+	reg [15:0] cnt;// = 0;
 	reg  [2:0] pixsz;
 	reg  [2:0] pixcnt;
 	reg        hs;
